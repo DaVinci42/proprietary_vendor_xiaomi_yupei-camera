@@ -1,0 +1,12 @@
+//
+// SPDX-FileCopyrightText: 2026 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+java_library {
+    name: "miui-cameraopt",
+    installable: true,
+    product_specific: true,
+    sdk_version: "current",
+    srcs: ["src/**/*.java"],
+}

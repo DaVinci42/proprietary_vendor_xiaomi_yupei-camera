@@ -1,0 +1,21 @@
+//
+// SPDX-FileCopyrightText: 2026 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app_import {
+    name: "MiuiCamera",
+    apk: "proprietary/product/priv-app/MiuiCamera/MiuiCamera.apk",
+    certificate: "platform",
+    privileged: true,
+    product_specific: true,
+    overrides: [
+        "Aperture",
+        "ApertureLensLauncher",
+        "Camera2",
+    ],
+    dex_preopt: {
+        enabled: false,
+    },
+    enforce_uses_libs: false,
+}

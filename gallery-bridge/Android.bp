@@ -1,0 +1,16 @@
+//
+// SPDX-FileCopyrightText: 2026 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "MiuiGalleryBridge",
+    product_specific: true,
+    sdk_version: "current",
+    certificate: "platform",
+    srcs: ["src/**/*.java"],
+    manifest: "AndroidManifest.xml",
+    optimize: {
+        enabled: false,
+    },
+}
